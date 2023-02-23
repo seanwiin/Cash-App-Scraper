@@ -117,7 +117,7 @@ def send_ping(url, unix_timestamp, timestamp):
                     embed.set_timestamp()
                     webhook_name.add_embed(embed)
                     
-                    #Webhook is sent of the new job posting.
+                    #Webhook is sent of the new cashapp link.
                     response = webhook_name.execute(remove_embeds=True)
                     
                     #Sleeping to prevent Discord rate limit of 50 messages every 15 second interval.
@@ -170,7 +170,7 @@ def send_ping(url, unix_timestamp, timestamp):
                     embed.set_timestamp()
                     webhook_name.add_embed(embed)
                     
-                    #Webhook is sent of the new job posting.
+                    #Webhook is sent of the new cashapp link.
                     response = webhook_name.execute(remove_embeds=True)
 
                     #Sleeping to prevent Discord rate limit of 50 messages every 15 second interval.
